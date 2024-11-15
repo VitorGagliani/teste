@@ -1,0 +1,39 @@
+body{
+  background: #141414;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 10px;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+#loader {
+  text-align: center;
+  display: none; /* Escondido inicialmente */
+  color: white;
+  place-content: center;
+}
+
+
+img{
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.id{
+  /* place-self: center; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+
+}
+
+.id img{
+  border: 3px solid white;
+  border-radius: 4px;
+}
